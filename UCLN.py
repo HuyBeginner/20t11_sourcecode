@@ -6,11 +6,14 @@ clearScreen()
 num1 = float(input("Nhap so thu nhat: ")) 
 if num1 != 0:
     num2 = float(input("Nhap so thu hai: "))
-
+    
 while (num1 == 0) or (num2 == 0):    
     if num1 == 0 :
         clearScreen()
-        num1 = float(input("Nhap lai so thu nhat: "))
+        while num1 == 0:
+            clearScreen()
+            num1 = float(input("Nhap lai so thu nhat: "))
+            
         
     num2 = float(input("Nhap so thu hai: "))
     if num2 == 0:
