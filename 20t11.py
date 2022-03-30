@@ -6,6 +6,7 @@ from termcolor import colored
 from pyfiglet import figlet_format
 init(strip=not sys.stdout.isatty()) 
 
+#Sentence input
 str_inp = "20/11 vui ve nha!!! =)) "
 res = str_inp.split()
 for i in res:
@@ -13,4 +14,6 @@ for i in res:
                            'magenta','on_grey', attrs=['bold'])
     time.sleep(0.75)
 print("\033[1;35;40m \n")
+
+#heart print
 print("      **       ** \n","   ******   ****** \n"," ********* ********* \n","********************* \n","********************* \n","********************* \n"," ******************* \n","   *************** \n","     *********** \n","       ******* \n","         *** \n","          * \n")
