@@ -3,6 +3,7 @@ def clearScreen():
     os.system('cls' if os.name == 'nt' else 'clear')
 clearScreen()
 
+#lam mau
 num1 = float(input("Nhap so thu nhat: ")) 
 if num1 != 0:
     num2 = float(input("Nhap so thu hai: "))
@@ -23,6 +24,8 @@ while (num1 == 0) or (num2 == 0):
     
 tam1 = num1
 tam2 = num2
+
+#thuat toan Euclid
 temp = num2 % num1
 while temp != 0 :
     temp = num1 % num2
