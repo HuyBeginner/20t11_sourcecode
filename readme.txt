@@ -11,4 +11,4 @@ first install these 3 libraries for python:
 	-pip install colorama
 	-pip install termcolor
 	-pip install pyfiglet
-or u can try: py -m pip install "ProjectName"
+or u can try: py -m pip install "LibName"
