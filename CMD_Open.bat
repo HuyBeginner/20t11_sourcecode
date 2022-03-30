@@ -1,0 +1,1 @@
+%SystemRoot%\System32\cmd.exe pause
