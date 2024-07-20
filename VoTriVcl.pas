@@ -1,3 +1,4 @@
+{filenaycotu2022}
 var
     i,n,j,spavai,spsen,k,lv,sp,rptime:integer;
     txt,tam1,tam2,tam3:ansistring;
