@@ -7,7 +7,7 @@ from pyfiglet import figlet_format
 init(strip=not sys.stdout.isatty()) 
 
 #Sentence input
-str_inp = "20/11 vui ve nha!!! =)) "
+str_inp = str(input("input string:"))
 res = str_inp.split()
 for i in res:
     cprint(figlet_format(i, font='starwars'),
